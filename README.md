@@ -69,3 +69,29 @@ si se desea obtener os registros cuyo nombres empiecen por la letra A, se debe u
 `SELECT * FROM clientes WHERE nombre LIKE 'a%' `
 
 ![consulta 7]( /consultas_9.png "consulta_9.png")
+
+### consulta 8
+se desea obtener los registros donde la cuarta letra del nombre del cliente sea la letra `a`
+
+`SELECT * FROM clientes WHERE nombre LIKE '___a' `
+
+![consulta 8]( consultas_10.png "consulta_10.png")
+
+### consulta 9
+si se desea obtener los registros cuya identificacion este entre el intervalo 110 y 150, se debe utilizar la clasula `BETWEEN`, que sirve para especificar un intervalo de valores 
+
+ `SELECT * FROM clientes WHERE identificacion BETWEEN 110 AND 150' `
+
+ ![consulta 9]( consulta_11.png "consulta_10.png")
+
+ ## introduccion DELETE
+ - permite borrar todos o un grupo especifico de registros de un tabla
+ - su formato es: `DELETE nombre_tabla`
+
+ ### eliminacion .1
+
+ eliminar los rgistros cuya identififcacion sea mayor a 170
+ 
+ `DELETE FROM cliente WHERE identificacion > 170`
+
+  ![eeliminacion 1]( eliminacion_1.png "consulta_10.png")
