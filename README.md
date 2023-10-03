@@ -118,4 +118,14 @@ para actualizar la ciudad de nacimiento de cristian vanegas, cuya identificacion
 
 ![actualizacion 1]( actualizacion_1.png "actualizacion_1.png")
 
+## creacion tabla pedido
+### diccionario de datos
+|campo|tipo de datos|longitud|
+|-----|-------------|--------|
+|***no_pedido***|varchar|15|
+|iden_cliente|varchar|15|
+|fecha_compra|date||
+|fecha_vencimiento|date||
+|observacion|varchar|30|
 
+![ tabla pedidos](pedidos.png "pedidos.png")
