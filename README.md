@@ -68,4 +68,4 @@ si se desea obtener os registros cuyo nombres empiecen por la letra A, se debe u
 
 `SELECT * FROM clientes WHERE nombre LIKE 'a%' `
 
-![consulta 7]( consulta_9.png "consulta")
+![consulta 7]( /consultas_9.png "consulta_9.png")
