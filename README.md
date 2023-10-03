@@ -94,4 +94,28 @@ si se desea obtener los registros cuya identificacion este entre el intervalo 11
  
  `DELETE FROM cliente WHERE identificacion > 170`
 
-  ![eeliminacion 1]( eliminacion_1.png "consulta_10.png")
+  ![eliminacion 1]( eliminacion_1.png "eliminacion_1.png")
+
+  ### eliminar 2
+
+  eliminar los registros cuyos identificacion sea igual a 116
+
+   `DELETE FROM cliente WHERE identificacion = 116`
+
+![eliminacion 1]( eliminacion_2.png "eliminacion_1.png")
+
+
+
+## introduccion UPDATE
+ - permite actualizar un campo de una tabla
+ - su formato es: `update nombre_tabla SET nombre_campo = valor`
+
+ ### actualizcion No .1
+
+para actualizar la ciudad de nacimiento de cristian vanegas, cuya identificacion es 114
+
+`update cliente SET ciudad_nac = 'pereira' WHERE identificacion=114`
+
+![actualizacion 1]( actualizacion_1.png "actualizacion_1.png")
+
+
