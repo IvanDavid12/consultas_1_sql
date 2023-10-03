@@ -55,3 +55,10 @@ se desea obtener los registros cuya identificacion sea menor de 110 y la ciudad 
 ´SELECT * FROM cliente WHERE identificacion<=110 AND ciudad_nac = ´cali´´
 
 ![consulta 5](consulta_7.png "consulta")
+
+### consulta No .6
+si se desea obtener os registros cuyo nombres empiecen por la letra A, se debe utilizar el operador `LIKE` que utiliza los patrones `%` (todos) y `_` (caracter)
+
+`SELECT * FROM clientes WHERE nombre LIKE 'a%'`
+
+![consulta 6](consulta_8.png "consulta")
