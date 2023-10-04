@@ -140,3 +140,9 @@ para actualizar la ciudad de nacimiento de cristian vanegas, cuya identificacion
 SELECT cliente.identificacion, cliente.nombre, cliente.apellidos, pedidos.no_pedidos, pedidos.fecha_compra, pedidos.fecha_vencimiento, pedidos.observacion FROM cliente INNER JOIN pedidos ON cliente.identificacion = pedidos.iden_cliente;
 
 ![ operador inner](INNER.png "INNER.png")
+
+2. para visualizar todos los campos delas tablas cliente y pedido donde identificacion sea mayor que 100, se debe realizar la siguiente instruccion
+
+`SELECT cliente.*, pedido.*, FROM cliente INNER JOIN pedido ON cliente.identificacion = pedido.iden_clientte WHERE cliente.identificcion>100`
+
+![ operador inner](INTER.png "INNER.png")
