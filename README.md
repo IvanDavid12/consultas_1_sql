@@ -129,3 +129,14 @@ para actualizar la ciudad de nacimiento de cristian vanegas, cuya identificacion
 |observacion|varchar|30|
 
 ![ tabla pedidos](pedidos.png "pedidos.png")
+
+## OPERADOR INNER JOIN
+- permite obtener datos de dos o mas tablas
+- cuando se realiza la concentracion de las tablas, no necesariamente se debe mostrar todos os datos de la tabla
+- `SELECT tabla1.campo, tabla2.campo,... FROM tabla_principal INNER JOIN tabla_secundaria ON campo_comun_tabla = campo_comun_tabla2`
+1. para visualizae los campos identificacion, nombre, apellido de la tabla clientes y no_pedido, fecha_compra fecha de vencimiento y observacion de la tabla pedidos, se debe realizar la siguiente instruccion 
+
+
+SELECT cliente.identificacion, cliente.nombre, cliente.apellidos, pedidos.no_pedidos, pedidos.fecha_compra, pedidos.fecha_vencimiento, pedidos.observacion FROM cliente INNER JOIN pedidos ON cliente.identificacion = pedidos.iden_cliente;
+
+![ operador inner](INNER.png "INNER.png")
